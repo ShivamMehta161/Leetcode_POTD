@@ -1,6 +1,6 @@
 class Solution {
  public:
-  // Similar to 859. Buddy Strings
+
   bool areAlmostEqual(string s1, string s2) {
     vector<int> diffIndices;
     for (int i = 0; i < s1.length(); ++i)
